@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--是否从小到大 true:放大效果 false：缩小，默认是放大效果-->
+    <attr name="isEnlarge" format="boolean" />
+    <!--图片最大会被放大缩小多少-->
+    <attr name="scaleMaxNum" format="float" />
+    <!--图片每次放大缩小的倍数-->
+    <attr name="scaleValue" format="float"/>
+
+    <declare-styleable name="ScaleImageView">
+        <attr name="isEnlarge"/>
+        <attr name="scaleMaxNum"/>
+        <attr name="scaleValue"/>
+    </declare-styleable>
+</resources>
